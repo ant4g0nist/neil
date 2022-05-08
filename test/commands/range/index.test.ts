@@ -1,10 +1,10 @@
 import {expect, test} from '@oclif/test';
 
-describe('history', async () => {
+describe('range', async () => {
   test
     .stdout()
-    .command(['history', '1'])
-    .it('should run history command', ctx => {
+    .command(['range', '14735709', '14735711'])
+    .it('should run range command', ctx => {
       expect(ctx.stdout).to.contain('Getting provider');
       expect(ctx.stdout).to.contain('Analysing the blocks data');
       expect(ctx.stdout).to.contain('Senders: ');
