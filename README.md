@@ -22,6 +22,28 @@ USAGE
   $ neil COMMAND
 ...
 ```
+
+## Using Docker
+
+```sh-session
+git clone https://github.com/ant4g0nist/neil
+cd neil
+export image=neil:0.1.0
+docker build -t $image .
+```
+
+Configure NETWORK and INFURA_API_KEY in .env file
+```
+alias neil="docker run --env-file $(pwd)/.env -it $image"
+$ neil (--version)
+neil/0.1.0 darwin-arm64 node-v18.0.0
+$ neil --help [COMMAND]
+USAGE
+  $ neil COMMAND
+...
+```
+
+
 <!-- usagestop -->
 
 # Commands
