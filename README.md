@@ -75,7 +75,7 @@ _See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v5.1.1
 
 ## `neil history [NUMBER]`
 
-[32mHow far back from the latest block you want to query?[39m
+How far back from the latest block you want to query?
 
 ```
 USAGE
@@ -95,7 +95,7 @@ _See code: [dist/commands/history/index.ts](https://github.com/ant4g0nist/neil/b
 
 ## `neil range [FROM] [TO]`
 
-[32mRange of the blocks you want to query![39m
+Range of the blocks you want to query!
 
 ```
 USAGE
